@@ -2,30 +2,57 @@
 #include "raylib.h";
 #include "enemi.h";
 #include "Jugador.h";
+#include <vector>
+
+float st = 0;
+int z = 0;
 
 int main()
 {
 	InitWindow(800,600,"act7");
 	SetTargetFPS(60);
 
-	Enemigo e(0,0,0, 40.0f);
-
-	Enemigo e1(0, 0, 0, 40.0f);
-
-	Enemigo e2(0, 600, 0, 100.0f);
+	std::vector<Enemigo> Enemi;
 
 	while (!WindowShouldClose()) {
 
-		e.MovEnemi(1);
-		e1.MovEnemi(2);
-		e2.MovEnemi(3);
+		float dt = GetFrameTime();
+		st += dt;
+		if (st >= 2.0f) {
+			z = GetRandomValue(1, 2);
+			if (z == 1) {
+				Enemi.emplace_back(
+					0,
+					GetRandomValue(0,500),
+					1,
+					120.0f
+				);
+			}
+			else if (z == 2) {
+				Enemi.emplace_back(
+					GetRandomValue(0,750),
+					0,
+					2,
+					40.0f
+				);
+			}
+			st = 0;
+		}
 
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
 
-		e.DrawEnemi(1);
-		e1.DrawEnemi(2);
-		e2.DrawEnemi(3);
+		for (Enemigo& e : Enemi) {
+			e.MovEnemi();
+			e.DrawEnemi();
+		}
+
+		for (int i = 0; i < Enemi.size(); i++) {
+			if (Enemi[i].Out()) {
+				Enemi.erase(Enemi.begin() + i);
+				i--;
+			}
+		}
 
 		EndDrawing();
 	}

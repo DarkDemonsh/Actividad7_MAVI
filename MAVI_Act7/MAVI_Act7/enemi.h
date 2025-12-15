@@ -7,8 +7,8 @@ private:
 	int py;
 	int type;
 	float speed = 250.0f;
-	const float g = 0.4f;
-	const float s = -12.0f;
+	float g = 0.4f;
+	float s = -12.0f;
 	Vector2 p;
 	Vector2 p1;
 	Vector2 p2;
@@ -18,8 +18,9 @@ private:
 public:
 	Enemigo(int px, int py, int type, float speed);
 
-	void DrawEnemi(int type);
-	void MovEnemi(int type);
+	void DrawEnemi();
+	void MovEnemi();
+	bool Out();
 
 	Vector2 GetP() const { return p; }
 	Vector2 GetP1() const { return p1; }

@@ -7,7 +7,7 @@ int rebote = 0;
 bool salto = false;
 float salto1 = 0.0f;
 
-Enemigo::Enemigo(int px, int py, int type, float speed) {
+Enemigo::Enemigo(int px, int py, int t, float speed) {
 
 	p = { (float)px, (float)py };
 	p1 = { (float)px, (float)py };
@@ -16,9 +16,11 @@ Enemigo::Enemigo(int px, int py, int type, float speed) {
 	v1 = { speed, 75.0f };
 	v2 = { speed, 50.0f };
 
+	type = t;
+
 }
 
-void Enemigo::DrawEnemi(int type) {
+void Enemigo::DrawEnemi() {
 
 	Vector2 rec = {40, 20};
 	Vector2 rec2 = { 20, 20 };
@@ -34,32 +36,26 @@ void Enemigo::DrawEnemi(int type) {
 	}
 }
 
-void Enemigo::MovEnemi(int type) {
+void Enemigo::MovEnemi() {
 	float deltaTime = GetFrameTime();
 	
-	p.x += v.x * deltaTime;
 	if (type == 1) {
+	p.x += v.x * deltaTime;
 		if (p.x <= 0) {
 			p.x = 0;
 			v.x = -v.x;
 		}
-		else if (p.x >= x) {
-			p.x = 0;
-		}
 	}
 	
-	p1.y += v1.y * deltaTime;
 	if (type == 2) {
-		if (p1.y <= 0) {
-			p1.y = +v1.y;
-		}
-		else if (p1.y >= y) {
-			p1.y = 0;
+	p1.y += v1.y * deltaTime;
+		if (p1.y <= 0 || p1.y >= 600) {
+			v1.y = -v1.y;
 		}
 	}
 
-	p2.x += v2.x * deltaTime;
 	if (type == 3) {
+	p2.x += v2.x * deltaTime;
 		if (!salto) {
 			salto = true;
 			salto1 = s;
@@ -83,4 +79,11 @@ void Enemigo::MovEnemi(int type) {
 		}
 	}
 
+}
+
+bool Enemigo::Out() {
+	if(type == 1){ return p.y > 650 || p.x < -50 || p.x > 850; }
+	if(type == 2){ return p1.y > 650 || p1.x < -50 || p1.x > 850; }
+	if(type == 3){ return p2.y > 650 || p2.x < -50 || p2.x > 850; }
+	return false;
 }
