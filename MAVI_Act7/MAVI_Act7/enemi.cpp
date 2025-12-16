@@ -1,17 +1,15 @@
 #include <iostream>
-#include "raylib.h";
-#include  "enemi.h";
+#include "raylib.h"
+#include "enemi.h"
 
-int x = 800, y = 600;
-int rebote = 0;
 bool salto = false;
 float salto1 = 0.0f;
 
-Enemigo::Enemigo(int px, int py, int t, float speed) {
+Enemigo::Enemigo(int dx, int dy, int t, float speed) {
 
-	p = { (float)px, (float)py };
-	p1 = { (float)px, (float)py };
-	p2 = { (float)px, (float)py };
+	p = { (float)dx, (float)dy };
+	p1 = { (float)dx, (float)dy };
+	p2 = { (float)dx, (float)dy };
 	v = { speed, 50.0f };
 	v1 = { speed, 75.0f };
 	v2 = { speed, 50.0f };
@@ -26,7 +24,7 @@ void Enemigo::DrawEnemi() {
 	Vector2 rec2 = { 20, 20 };
 
 	if (type == 1) {
-		DrawRectangleV(p, rec, Color{ GREEN });
+		DrawRectangleV(p, rec, Color{ ORANGE });
 	}
 	if (type == 2) {
 		DrawRectangleV(p1, rec2, Color{ RED });
@@ -43,14 +41,14 @@ void Enemigo::MovEnemi() {
 	p.x += v.x * deltaTime;
 		if (p.x <= 0) {
 			p.x = 0;
-			v.x = -v.x;
+			v.x = +v.x;
 		}
 	}
 	
 	if (type == 2) {
 	p1.y += v1.y * deltaTime;
 		if (p1.y <= 0 || p1.y >= 600) {
-			v1.y = -v1.y;
+			v1.y = +v1.y;
 		}
 	}
 
@@ -64,19 +62,19 @@ void Enemigo::MovEnemi() {
 			p2.y += salto1;
 			salto1 += g;
 
-			if (p2.y >= y - 10) {
+			if (p2.y >= 590) {
 				salto = false;
 				salto1 = 0;
 			}
 		}
-		if (p2.x >= x) {
-			p2.x = x;
+		/*if (p2.x >= 800) {
+			p2.x = 800;
 			v2.x = -v2.x;
 		}
-		else if (p2.x <= 0) {
+		if (p2.x <= 0) {
 			p2.x = 0;
 			v2.x = -v2.x;
-		}
+		}*/
 	}
 
 }
