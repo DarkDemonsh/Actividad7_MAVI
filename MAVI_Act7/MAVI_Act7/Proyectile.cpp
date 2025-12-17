@@ -5,9 +5,6 @@
 #include "enemi.h"
 #include "Global.h"
 
-class Enemigo;
-float t = 0;
-
 Proyectile::Proyectile(int px, int py, float s, int t, Jugador& p) {
 
 	pos = {(float)px, (float)py};
@@ -18,37 +15,47 @@ Proyectile::Proyectile(int px, int py, float s, int t, Jugador& p) {
 
 	shoot = false;
 
-	per = false;
-
 	npos = { 0,0 };
+
+	g = 10.0f;
+	vel = { 0.0f,0.0f };
+
+	pro = LoadTexture("assets/img/disp.png");
+	scala1 = fminf(10.0f / pro.width, 10.0f / pro.height);
 
 }
 
 void Proyectile::DrawDisparo() {
-	DrawCircleV(pos, size, PINK);
+	//DrawCircleV(pos, size, PINK);
+	Vector2 tp = { pos.x - 5, pos.y - 5 };
+	DrawTextureEx(pro, tp, 0.0f, scala1, WHITE);
+}
+
+void Proyectile::UnDrawDisp() {
+	UnloadTexture(pro);
 }
 
 void Proyectile::MovDisparo(Jugador& p) {
 	if (!shoot) {
 
 		//CONTROL DE DIRECCION	
-		if (npos.x <= 3) {
+		if (npos.x <= 1) {
 			if (IsKeyPressed(KEY_UP)) {
-				npos.x += 1;
+				npos.x += 0.25f;
 			};
 		}
-		if (npos.x >= -3) {
+		if (npos.x >= -1) {
 			if (IsKeyPressed(KEY_DOWN)) {
-				npos.x -= 1;
+				npos.x -= 0.25f;
 			};
 		}
 
 		//CONTROL DE VELOCIDAD
-		if (speed <= 9) {
-			if (IsKeyPressed(KEY_LEFT)) { speed += 1; };
+		if (speed <= 19) {
+			if (IsKeyPressed(KEY_LEFT)) { speed += 2; };
 		}
-		if (speed >= 5) {
-			if (IsKeyPressed(KEY_RIGHT)) { speed -= 1; };
+		if (speed >= 3) {
+			if (IsKeyPressed(KEY_RIGHT)) { speed -= 2; };
 		}
 	}
 
@@ -56,15 +63,24 @@ void Proyectile::MovDisparo(Jugador& p) {
 	if (IsKeyPressed(KEY_W) && !shoot) {
 		sp = p.GetPos();
 		pos = { sp.x + 15, sp.y - 30 };
+
+		vel.x = -npos.x * speed * 60;
+		vel.y = -speed * 120;
+
 		shoot = true;
 	}
 
 	 if (shoot) {
-		pos.y -= speed;
-		pos.x -= npos.x;
+		 float dt = GetFrameTime();
+
+		 vel.y += g * dt;
+		 pos.y += vel.y * dt;
+		 pos.x += vel.x * dt;
 	}
 
-	if (pos.y <= -1) { shoot = false;}
+	if (pos.y <= -10) {
+		shoot = false;
+	}
 
 }
 
@@ -74,6 +90,7 @@ void Proyectile::Colision(Enemigo& e) {
 
 	if (CheckCollisionCircleRec(pos, 10.0f, r)) {
 		e.SetHit(true);
+		pos = { -100, -100 };
 	}
 
 }
@@ -89,10 +106,10 @@ void Proyectile::DrawInfo() {
 
 	DrawRectangleV(pp1, pt1, LIGHTGRAY);
 	DrawRectangleV(pp, pt, WHITE);
-	DrawText(TextFormat("Posicion_X: %.2f", npos.x), 0, y-70, 20, BLACK);
-	DrawText(TextFormat("Velocidad: %.2f", speed), 0, y-50, 20, BLACK);
-	DrawText(TextFormat("FPS: %.d", GetFPS()), 0, y-30, 20, BLACK);
-	DrawText(TextFormat("Tiempo: %.2f", t), 200, y-70, 20, BLACK);
-	DrawText(TextFormat("Vida: %.d", vida), 200, y-50, 20, BLACK);
-	DrawText(TextFormat("Puntos: %.d", puntos), 200, y-30, 20, BLACK);
+	DrawText(TextFormat("Posicion_X: %.2f", npos.x), 5, y-70, 20, BLACK);
+	DrawText(TextFormat("Velocidad: %.2f", speed), 5, y-50, 20, BLACK);
+	DrawText(TextFormat("FPS: %.d", GetFPS()), 5, y-30, 20, BLACK);
+	DrawText(TextFormat("Tiempo: %.2f", t), x-400, y-70, 20, BLACK);
+	DrawText(TextFormat("Vida: %.d", vida), x-400, y-50, 20, BLACK);
+	DrawText(TextFormat("Puntos: %.d", puntos), x-400, y-30, 20, BLACK);
 }

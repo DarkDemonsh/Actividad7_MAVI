@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Proyectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Proyectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\MAVI_Act7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\MAVI_Act7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\enemi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\enemi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,6 +13,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Jugador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Proyectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\enemi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Proyectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\enemi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3399A5B-A08B-4504-B2CA-7A6F9F4523C7}|MAVI_Act7\\MAVI_Act7.vcxproj|solutionrelative:MAVI_Act7\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,43 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Global.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.h",
               "RelativeDocumentMoniker": "MAVI_Act7\\Global.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.h",
               "RelativeToolTip": "MAVI_Act7\\Global.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-17T15:17:43.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Global.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.cpp",
               "RelativeDocumentMoniker": "MAVI_Act7\\Global.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Global.cpp",
               "RelativeToolTip": "MAVI_Act7\\Global.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-17T15:17:33.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Proyectile.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.h",
               "RelativeDocumentMoniker": "MAVI_Act7\\Proyectile.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.h",
               "RelativeToolTip": "MAVI_Act7\\Proyectile.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-16T18:11:01.421Z",
               "EditorCaption": ""
@@ -95,33 +95,33 @@
               "RelativeDocumentMoniker": "MAVI_Act7\\Proyectile.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Proyectile.cpp",
               "RelativeToolTip": "MAVI_Act7\\Proyectile.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-16T18:10:49.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Jugador.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.h",
               "RelativeDocumentMoniker": "MAVI_Act7\\Jugador.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.h",
               "RelativeToolTip": "MAVI_Act7\\Jugador.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-15T19:38:45.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Jugador.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.cpp",
               "RelativeDocumentMoniker": "MAVI_Act7\\Jugador.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\Jugador.cpp",
               "RelativeToolTip": "MAVI_Act7\\Jugador.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-15T19:38:32.853Z",
               "EditorCaption": ""
@@ -134,33 +134,33 @@
               "RelativeDocumentMoniker": "MAVI_Act7\\enemi.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.h",
               "RelativeToolTip": "MAVI_Act7\\enemi.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-15T19:38:10.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "enemi.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.cpp",
               "RelativeDocumentMoniker": "MAVI_Act7\\enemi.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\enemi.cpp",
               "RelativeToolTip": "MAVI_Act7\\enemi.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-15T19:38:21.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MAVI_Act7.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\MAVI_Act7.cpp",
               "RelativeDocumentMoniker": "MAVI_Act7\\MAVI_Act7.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Unidad 7\\Actividad7_MAVI\\Actividad7_MAVI\\MAVI_Act7\\MAVI_Act7\\MAVI_Act7.cpp",
               "RelativeToolTip": "MAVI_Act7\\MAVI_Act7.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAC4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-15T19:34:09.009Z",
               "EditorCaption": ""

@@ -5,13 +5,18 @@
 
 class Enemigo {
 private:
-	int dx;
-	int dy;
+
+	Texture2D e1;
+	Texture2D e2;
+	Texture2D e3;
+	float scala1;
+	float scala2;
+	float scala3;
+
 	int type;
-	float speed = 250.0f;
-	float g = 0.4f;
-	float s = -12.0f;
+	float g = 10.0f;
 	bool ehit = false;
+	float vy;
 
 	Vector2 p;
 	Vector2 v;
@@ -22,6 +27,7 @@ public:
 	Enemigo(int dx, int dy, int type, float speed);
 
 	void DrawEnemi();
+	void UnDrawEnemi();
 	void MovEnemi();
 	bool Out();
 
