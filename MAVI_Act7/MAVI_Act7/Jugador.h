@@ -10,6 +10,7 @@ private:
 	int px;
 	int py;
 	float speed = 20.0f;
+
 	Vector2 pos;
 	Vector2 l1;
 	Vector2 l2;
@@ -19,7 +20,6 @@ public:
 
 	void DrawJugador();
 	void MovJugador();
-	void Colision(Enemigo& e);
 
 	Vector2 GetPos() const { return pos; }
 	Vector2 GetL1() const { return l1; }

@@ -25,6 +25,7 @@ public:
 	void DrawDisparo();
 	void MovDisparo(Jugador& p);
 	void Colision(Enemigo& e);
+	void DrawInfo();
 
 	Vector2 GetSp() const { return sp; }
 	Vector2 GetPos() const { return pos; }

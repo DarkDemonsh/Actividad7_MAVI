@@ -1,6 +1,10 @@
 #include <iostream>
 #include "raylib.h"
 #include "Jugador.h"
+#include "enemi.h"
+#include "Global.h"
+
+class Enemigo;
 
 Jugador::Jugador(int px, int py, float sp) {
 	

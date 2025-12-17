@@ -1,5 +1,4 @@
 ﻿  MAVI_Act7.cpp
   enemi.cpp
   Generando código...
-LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
   MAVI_Act7.vcxproj -> E:\Facultad\Tecnicatura en Diseño y desarollo de Videojuegos\Cursando\Modelo y algoritmo de videojuegos I\Unidad 7\Actividad7_MAVI\Actividad7_MAVI\MAVI_Act7\x64\Debug\MAVI_Act7.exe

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "raylib.h"
 #include "enemi.h"
+#include "Global.h"
 
 bool salto = false;
 float salto1 = 0.0f;
@@ -8,35 +9,35 @@ float salto1 = 0.0f;
 Enemigo::Enemigo(int dx, int dy, int t, float speed) {
 
 	p = { (float)dx, (float)dy };
-	p1 = { (float)dx, (float)dy };
-	p2 = { (float)dx, (float)dy };
 	v = { speed, 50.0f };
-	v1 = { speed, 75.0f };
-	v2 = { speed, 50.0f };
 
 	type = t;
 
+	rec2 = { 20, 20 };
+	rec = { 40, 20 };
 }
 
 void Enemigo::DrawEnemi() {
-
-	Vector2 rec = {40, 20};
-	Vector2 rec2 = { 20, 20 };
-
+//ENEMIGO HORIZONTAL
 	if (type == 1) {
 		DrawRectangleV(p, rec, Color{ ORANGE });
 	}
+
+//ENEMIGO VERTICAL
 	if (type == 2) {
-		DrawRectangleV(p1, rec2, Color{ RED });
+		DrawRectangleV(p, rec2, Color{ RED });
 	}
+
+//ENEMIGO CON REBOTE
 	if (type == 3) {
-		DrawCircleV(p2, 20, Color{ PURPLE });
+		DrawCircleV(p, 20, Color{ PURPLE });
 	}
 }
 
 void Enemigo::MovEnemi() {
 	float deltaTime = GetFrameTime();
 	
+//ENEMIGO HORIZONTAL
 	if (type == 1) {
 	p.x += v.x * deltaTime;
 		if (p.x <= 0) {
@@ -44,44 +45,38 @@ void Enemigo::MovEnemi() {
 			v.x = +v.x;
 		}
 	}
-	
+
+//ENEMIGO VERTICAL
 	if (type == 2) {
-	p1.y += v1.y * deltaTime;
-		if (p1.y <= 0 || p1.y >= 600) {
-			v1.y = +v1.y;
+	p.y += v.y * deltaTime;
+		if (p.y <= 0 || p.y >= y-100) {
+			v.y = +v.y;
 		}
 	}
 
+//ENEMIGO CON REBOTE
 	if (type == 3) {
-	p2.x += v2.x * deltaTime;
+	p.x += v.x * deltaTime;
 		if (!salto) {
 			salto = true;
 			salto1 = s;
 		}
 		if (salto) {
-			p2.y += salto1;
+			p.y += salto1;
 			salto1 += g;
 
-			if (p2.y >= 590) {
+			if (p.y >= y-110) {
 				salto = false;
 				salto1 = 0;
 			}
 		}
-		/*if (p2.x >= 800) {
-			p2.x = 800;
-			v2.x = -v2.x;
-		}
-		if (p2.x <= 0) {
-			p2.x = 0;
-			v2.x = -v2.x;
-		}*/
 	}
 
 }
 
 bool Enemigo::Out() {
-	if(type == 1){ return p.y > 650 || p.x < -50 || p.x > 850; }
-	if(type == 2){ return p1.y > 650 || p1.x < -50 || p1.x > 850; }
-	if(type == 3){ return p2.y > 650 || p2.x < -50 || p2.x > 850; }
+	if(type == 1){ return p.y > y-90 || p.x < -50 || p.x > x+50; }
+	if(type == 2){ return p.y > y-90 || p.x < -50 || p.x > x+50; }
+	if(type == 3){ return p.y > y-90 || p.x < -50 || p.x > x+50; }
 	return false;
 }
